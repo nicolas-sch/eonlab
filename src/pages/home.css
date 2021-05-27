@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.homepage {
+    width: 100%;
+    height: 100vh;
+    background-color: #FFF;
+    background: linear-gradient(70deg, rgba(133,39,240,1) 0%, rgba(195,111,254,1) 37%, rgba(63,219,252,1) 100%);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 4.5s ease-in-out infinite;
+    align-items: center;
+}
+
+.home-title {
+    max-width: 1440px;
+    width: 90%;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    align-items: center;
+    padding: 300px 0 0 0;
+}
+
+.home-title h1 {
+    width: 400px;
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 900;
+    font-style: normal;
+    color: #FFF;
+    letter-spacing: 0.05em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.home-icon {
+    max-width: 1440px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.fa-chevron-down {
+    color: #FFFFFF;
+    font-size: 50px;
+}
+
+@keyframes change {
+    0%{
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+
+@media (max-width: 768px){
+    .homepage {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+
+    .home-title {
+        width: 100%;
+        height: auto;
+        position: relative;
+        align-items: center;
+    }
+
+    .home-title h1 {
+        width: 100%;
+        height: auto;
+        font-size: 36px;
+        text-transform: uppercase;
+        position: relative;
+        margin: 0 auto;
+        text-align: center;
+        top: 0px;
+        left: 0px;
+    }
+}

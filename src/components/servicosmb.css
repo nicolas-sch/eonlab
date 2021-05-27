@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+.servicospagemb {
+    display: none;
+}
+
+@media (max-width: 768px){
+    .servicospagemb {
+        display: flex;
+        position: relative;
+    }
+    .servicos-containermb {
+        margin: -5px auto;
+        background: #7400B8 ;
+        transition: 1s ease-out;
+        padding: 50px 0 0 0;
+    }
+
+    .servicos-containermb2 {
+        height: auto;
+        background: linear-gradient(180deg, #7400B8 15%, #6378d0 37%, #58C2DE 100%);
+    }
+
+    .servicos-titlemb {
+        width: 90%;
+        height: auto;
+        top: 0px;
+        left: 0px;
+        position: relative;
+        margin: 0 auto;
+        align-items: center;
+        background-color: #7400B8 ;
+        padding: 0 0 10px 0;
+    }
+    
+    .servicos-titlemb h1 {
+        width: 100%;
+        height: auto;
+        position: relative;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        font-size: 36px;
+        line-height: 38px;
+        letter-spacing: 0.05em;
+        font-weight: 800;
+        font-style: normal;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .servicos-titlemb p {
+        width: 90%;
+        height: auto;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #FFFFFF;
+        font-size: 18px;
+        line-height: 25px;
+        font-weight: 300;
+        font-style: normal;
+        text-align: center;
+        margin: 20px auto;
+    }
+    
+    .servicos-wrapper1mb {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 67px;
+        margin: 0 auto;
+        align-items: center;
+        padding: 40px 0 40px 0;
+    }
+
+    .servicos-wrapper1mb img {
+        position: absolute;
+        left: 5%;
+        top: 67px;
+        width: 90%;
+        height: auto;
+        opacity: 0.1;
+    }
+    
+    .servicos-wrapper2mb {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+        margin-top: 67px;
+        align-items: center;
+    }
+
+    .servicos-wrapper2mb img {
+        position: absolute;
+        left: 5%;
+        top: 60px;
+        width: 90%;
+        height: auto;
+    }
+    
+    .servicos-wrapper3mb {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        text-align: center;
+    }
+
+    .servicos-wrapper3mb img {
+        position: absolute;
+        left: 5%;
+        top: 90px;
+        width: 90%;
+        height: auto;
+        opacity: 0.3;
+    }
+    
+    .servicos-textmb {
+        width: 90%;
+        height: auto;
+        position: relative;
+        margin-left: 0%;
+        margin-top: 0px;
+        margin: 0px auto;
+        text-align: left;
+    }
+    
+    .servicos-text1mb {
+        width: 89%;
+        height: auto;
+        position: relative;
+        margin-left: -0px;
+        margin-top: 0px;
+        text-align: left;
+        margin: 80px auto;
+    }
+
+    .text-titlemb {
+        width: 100%;
+        border-bottom: 2px solid #FFF;
+        margin: 0 auto;
+    }
+    
+    .servicos-text2mb {
+        width: 90%;
+        height: auto;
+        position: relative;
+        margin-left: 0%;
+        margin-top: 0px;
+        margin: 80px auto;
+        text-align: left;
+    }
+    
+    .servicos-textmb h1 {
+        width: 100%;
+        height: 30px;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #FFFFFF;
+        font-size: 36px;
+        line-height: 40px;
+        font-weight: 800;
+        font-style: normal;
+        text-align: left;
+        margin-bottom: 25px;
+    }
+    
+    .servicos-text1mb h1 {
+        width: 100%;
+        height: 30px;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #FFFFFF;
+        font-size: 36px;
+        line-height: 40px;
+        font-weight: 800;
+        font-style: normal;
+        margin-bottom: 25px;
+    }
+    
+    .servicos-text2mb h1 {
+        width: 100%;
+        height: 30px;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #FFFFFF;
+        font-size: 36px;
+        line-height: 40px;
+        font-weight: 800;
+        font-style: normal;
+        margin-bottom: 25px;
+    }
+    
+    .servicos-textmb p {
+        width: 100%;
+        height: auto;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #FFFFFF;
+        font-size: 18px;
+        line-height: 25px;
+        font-weight: 300;
+        font-style: normal;
+        margin-bottom: 20px;
+        padding: 53px 0 0 0;
+    }
+    
+    .servicos-text1mb p {
+        width: 100%;
+        height: 89px;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #FFFFFF;
+        font-size: 18px;
+        line-height: 25px;
+        font-weight: 300;
+        font-style: normal;
+        margin-bottom: 20px;
+        padding: 20px 0 0 0;
+    }
+    
+    .servicos-text2mb p {
+        width: 100%;
+        height: 89px;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #FFFFFF;
+        font-size: 18px;
+        line-height: 25px;
+        font-weight: 300;
+        font-style: normal;
+        margin-bottom: 20px;
+        padding: 20px 0 0 0;
+    }
+    
+    .servicos-textmb ul {
+        
+        margin-top: 53px;
+        padding: 0px 0 0 0;
+    }
+    
+    .servicos-text1mb ul {
+        padding: 70px 0 0 0;
+    }
+    
+    .servicos-text2mb ul {
+        padding: 70px 0 0 0;
+    }
+    
+    .servicos-textmb li {
+        width: 100%;
+        height: auto;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #FFFFFF;
+        font-size: 14px;
+        line-height: 30px;
+        font-weight: 700;
+        font-style: normal;
+        list-style-type: none;
+    }
+    
+    .servicos-text1mb li {
+        width: 100%;
+        height: auto;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #FFFFFF;
+        font-size: 14px;
+        line-height: 30px;
+        font-weight: 700;
+        font-style: normal;
+        list-style-type: none;
+    }
+    
+    .servicos-text2mb li {
+        width: 100%;
+        height: auto;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #FFFFFF;
+        font-size: 14px;
+        line-height: 30px;
+        font-weight: 700;
+        font-style: normal;
+        list-style-type: none;
+    }
+}

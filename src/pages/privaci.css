@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;800&display=swap');
+
+
+.privacipage {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background: black;
+    /* background: linear-gradient(180deg, #7400B8 15%, #6378d0 37%, #58C2DE 100%); */
+}
+
+.politicas-container {
+    width: 90%;
+    max-width: 1440px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+.politicas-title {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 100px 0 20px 0;
+    
+}
+
+.politicas-text {
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+.politicas-footer {
+    padding: 10px 0 30px 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
